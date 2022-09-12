@@ -1,0 +1,124 @@
+[
+  {
+    "domain": "dantri.com.vn",
+    "protocol": "https://",
+    "tags": [
+      {
+        "category": "hot",
+        "selector": "main > div.highlight > article.highlight > article.article-item ",
+        "resource": {
+          "title": {
+            "selector": " h3 > a",
+            "attr": "@"
+          },
+          "link": {
+            "selector": " h3 > a",
+            "attr": "href"
+          },
+          "thumb": {
+            "selector": "div.article-thumb > a > img",
+            "attr": "data-src"
+          },
+          "desc": {
+            "selector": "div.article-content > div > a",
+            "attr": "@"
+          }
+        }
+      },
+      {
+        "category": "hot",
+        "selector": "main > div.hot > article.article-hot > article.article-item ",
+        "resource": {
+          "title": {
+            "selector": " h3 > a",
+            "attr": "@"
+          },
+          "link": {
+            "selector": " h3 > a",
+            "attr": "href"
+          },
+          "thumb": {
+            "selector": "div.article-thumb > a > img",
+            "attr": "data-src"
+          },
+          "desc": {
+            "selector": "div.article-content > div > a",
+            "attr": "@"
+          }
+        }
+      },
+      {
+        "category": "normal",
+        "selector": "main > div.normal > article.article-list > article.article-item ",
+        "resource": {
+          "title": {
+            "selector": "div.article-content > h3 > a",
+            "attr": "@"
+          },
+          "link": {
+            "selector": "div.article-content > h3 > a",
+            "attr": "href"
+          },
+          "thumb": {
+            "selector": "div.article-thumb > a > img",
+            "attr": "data-src"
+          },
+          "desc": {
+            "selector": "div.article-content > div > a",
+            "attr": "@"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "domain": "vnexpress.net",
+    "protocol": "https://",
+    "tags": [
+      {
+        "category": "hot",
+        "selector": "div.sub-news-top > div.inner-sub-news-top > div.scroll-sub-featured > ul.list-sub-feature > li",
+        "resource": {
+          "title": {
+            "selector": "p > a",
+            "attr": "title"
+          },
+          "link": {
+            "selector": "p > a",
+            "attr": "href"
+          },
+          "thumb": {
+            "selector": "div > a > picture > img",
+            "attr": "data-src"
+          },
+          "desc": {
+            "selector": "p > a",
+            "attr": "@"
+          }
+        }
+      },
+      {
+        "category": "normal",
+        "selector": "div.container > div.col-left > article.item-news-common ",
+        "resource": {
+          "title": {
+            "selector": "p > a",
+            "attr": "title"
+          },
+          "link": {
+            "selector": "p > a",
+            "attr": "href"
+          },
+          "thumb": {
+            "selector": "div > a > picture > img",
+            "attr": "data-src"
+          },
+          "desc": {
+            "selector": "p > a",
+            "attr": "@"
+          }
+        }
+      }
+    ]
+  }
+]
