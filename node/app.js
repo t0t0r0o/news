@@ -10,11 +10,11 @@ const GetData_Controller = require("./Controllers/GetData_Controller");
 const getData_Controller = new GetData_Controller();
 app.use(cors());
 
-// tu dong cap nhat thong tin sau 10 phut
+// tu dong cap nhat thong tin sau 5 phut
 // 1
-// setInterval(() => {
-//   getData_Controller.handleDownloadPageFile();
-// }, 300000);
+ setInterval(() => {
+   getData_Controller.handleDownloadPageFile();
+ }, 300000);
 
 // khoi tao socket
 // const io = require("socket.io")(server, {
