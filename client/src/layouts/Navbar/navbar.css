@@ -1,0 +1,30 @@
+
+.navbar {
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+
+
+.navbar li{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: inline;
+    padding: 20px 30px;
+}
+a {
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 16px;
+}
+li:hover {
+    background-color: #52c41a;
+}
+li:active{
+    background-color: #52c41a;
+}
+
+
+

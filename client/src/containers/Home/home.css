@@ -1,0 +1,26 @@
+
+
+.left-2 {
+    width: 25%;
+    height: 100%;
+    padding-right: 10px;
+    border-right: 0.5px solid #e5e5e5;
+}
+
+.right-2 {
+    width: 75%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-2 > Article {
+    width: 45%;
+    margin: 2.2%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
